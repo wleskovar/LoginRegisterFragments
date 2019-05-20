@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentFormulario"
+    android:orientation="vertical"
+    android:background="#99C9C1C1"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My App"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:id="@+id/userNameFormulario"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/passwordFromulario"/>
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:background="#99555151"
+        android:layout_marginTop="40dp"
+        android:id="@+id/botonFormulario"/>
+
+</LinearLayout>
